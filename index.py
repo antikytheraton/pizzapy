@@ -7,9 +7,9 @@ print(parentdir)
 
 from flask import Flask, request, send_from_directory, render_template
 
-import pizzapy.modules.messenger
-from pizzapy.config.config import CONFIG
-from pizzapy.config.fbpage import page
+import modules.messenger
+from config.config import CONFIG
+from config.fbpage import page
 
 app = Flask(__name__)
 

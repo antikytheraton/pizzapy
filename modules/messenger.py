@@ -4,14 +4,14 @@ parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.sys.path.insert(0,parentdir)
 
 import json
-from pizzapy.config.config import CONFIG
+from config.config import CONFIG
 from fbmq import Attachment, Template, QuickReply, NotificationType
-from pizzapy.config.fbpage import page
+from config.fbpage import page
 
-from pizzapy.modules.menu_inicio import menu_inicio
-from pizzapy.modules.menu_pizzas import menu_pizzas
-from pizzapy.modules.menu_extras import menu_extras
-from pizzapy.modules.seleccion_item import nombre_producto, pregunta_cantidad, confirmar_seleccion, confirmar_operacion, cancelar_operacion
+from modules.menu_inicio import menu_inicio
+from modules.menu_pizzas import menu_pizzas
+from modules.menu_extras import menu_extras
+from modules.seleccion_item import nombre_producto, pregunta_cantidad, confirmar_seleccion, confirmar_operacion, cancelar_operacion
 
 USER_SEQ = {}
 
