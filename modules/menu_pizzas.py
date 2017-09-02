@@ -4,9 +4,9 @@ parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.sys.path.insert(0,parentdir)
 
 import json
-from pizzapy.config.config import CONFIG
+from config.config import CONFIG
 from fbmq import Attachment, Template, QuickReply, NotificationType
-from pizzapy.config.fbpage import page
+from config.fbpage import page
 
 def menu_pizzas(recipient):
     page.send(recipient, 'Checa nuestro menu de pizzas')
