@@ -8,7 +8,7 @@ itsdangerous==0.24
 Jinja2==2.9.6
 MarkupSafe==1.0
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.12.2
 certifi==2017.7.27.1
 chardet==3.0.4
@@ -21,7 +21,7 @@ Jinja2==2.9.6
 MarkupSafe==1.0
 messenger==1.0
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.12.2
 certifi==2017.7.27.1
 chardet==3.0.4
@@ -35,6 +35,6 @@ Jinja2==2.9.6
 MarkupSafe==1.0
 messenger==1.0
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.12.2
 
